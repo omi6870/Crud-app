@@ -1,0 +1,54 @@
+.register-container{
+
+    display: flex;
+    align-items: center;
+    padding: 120px 1rem;
+    justify-content: center;
+    
+    }
+    .r-lable{
+        font-size: 18px;
+        font-weight:500;
+        color: #FEAE17;
+    
+    }
+    
+    .r-input{
+        padding: 8px;
+        border: 1px solid #FEAE17;
+        border-radius: 4px;
+        width: 300px;
+        margin: 10px 0 2px 0;
+        font-size: 15px;
+       
+    }
+    .heading{
+        color: #FEAE17;
+    }
+
+    .navigate{
+        display: flex;
+        color: #FEAE17; 
+        align-items: center;
+    }
+    .navigate a{
+        text-decoration: none;
+        color: rgb(13, 13, 56);
+    } 
+    p{
+    margin-right: 10px;
+    } 
+
+    .r-button{
+        color: white;
+        padding: 15px;
+        margin-left: 30px;
+        border-radius: 5px;
+        font-size: 20px;
+        background-color:#FEAE17;
+        border: none;
+        cursor: pointer;
+      }
+      .r-button:hover{
+        font-weight: bold;
+      } 

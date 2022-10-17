@@ -1,0 +1,131 @@
+.s-main{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+height: 80vh;
+margin-top: 100px ;
+padding:10px;
+}
+
+.item-screen{
+    display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+background-color:#FEAE17;
+height: 70vh;
+border-radius: 20px;
+box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+img{
+    width: 450px;
+    height: 350px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.s-label{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.s-name{
+   color: white;
+ 
+    
+}
+.s-price{
+   color: white;
+ 
+}
+
+.s-logo{
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 25px
+}
+.s-logo a{
+text-decoration: none;
+color: white
+}
+
+
+@media only screen and (max-width:1200px){
+    .s-main{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+
+   
+        
+    }}
+
+  
+        @media only screen and (max-width:920px){
+            .s-main{
+            display: flex;
+            justify-content: center;
+            align-items:center;
+    
+            margin: 110px 
+                
+            }}
+            
+        @media only screen and (max-width:780px){
+            .s-main{
+            display: flex;
+            justify-content: center;
+            align-items:center;
+       
+            margin: 110px 
+                
+            }
+        .s-name{
+            font-size: 15px;
+        };
+        .s-price{
+            font-size: 15px;
+        }
+    
+    }
+
+
+
+
+            @media only screen and (max-width:500px){
+                .s-main{
+                display: flex;
+                justify-content: center;
+                align-items:center;
+                };
+                .item-screen{
+height: 500px;
+                }
+            img{
+                width: 400px;
+                height: 300px;
+            }}
+                @media only screen and (max-width:400px){
+                    .s-main{
+                    display: flex;
+                    justify-content: center;
+                    align-items:center;
+         
+                    margin: 110px 
+                        
+                    }
+                    img{
+                        width: 300px;
+                        height: 200px;
+                    }
+                    
+                    }
+                    @media only screen and (max-width:300px){
+                
+                       
+                        }

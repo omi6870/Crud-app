@@ -1,0 +1,138 @@
+
+.i-section{
+    margin-top: 150px;
+    margin-left: 30px;
+}
+.i-heading{
+    color: #FEAE17;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 35px;
+    
+   
+}
+
+.card{
+    background-color: #FEAE17;
+    height: 320px;
+    width: 210px;
+    margin: 20px;
+    border-radius: 15px;
+    display: flex;
+   justify-content: center;
+   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.card:hover {
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  }
+.item-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    
+}
+.card-img{
+    width: 200px;
+    height: 180px;
+    border-radius: 20px ;
+    margin-top: 10px;
+    
+}
+
+.n-butoons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.e-button{
+    font-size: 15px;
+    margin: 15px;
+    padding: 10px;
+    border: none;
+    background-color: green;
+    border-radius: 5px;
+    color: white;
+}
+.e-button:hover{
+    -ms-transform: scale(1.1); 
+    -webkit-transform: scale(1.1); 
+    transform: scale(1.1); 
+}
+.d-button{
+    font-size: 15px;
+    padding: 10px;
+    border: none;
+    background-color:red;
+    border-radius: 5px;
+    color: white;
+}
+.d-button:hover{
+    -ms-transform: scale(1.1); 
+    -webkit-transform: scale(1.1); 
+    transform: scale(1.1); 
+}
+.w-card{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+.eye-icon{
+    position:absolute;
+    margin: 0 0 250px 150px;
+    font-size: 30px;
+    
+
+}
+.eye-icon a {
+    text-decoration: none;
+     color: #FEAE17;
+}
+
+.eye-icon:hover{
+    -ms-transform: scale(1.2); 
+    -webkit-transform: scale(1.2); 
+    transform: scale(1.2); 
+}
+.c-button{
+    color: white;
+    padding: 15px;
+    margin-left: 30px;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color:#FEAE17;
+    border: none;
+    cursor: pointer;
+}
+.c-button:hover{
+    font-weight: bold;
+  } 
+@media only screen and (max-width:720px){
+    .w-card {
+    display: flex;
+
+    justify-content: center;
+    align-items:center
+        
+    }}
+
+    @media only screen and (max-width:560px){
+        .w-card{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items:center
+            
+        }}
+
+        @media only screen and (max-width:720px){
+            .i-section{
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                
+            };
+          
+          }

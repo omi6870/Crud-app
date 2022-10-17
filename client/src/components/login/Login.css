@@ -1,0 +1,41 @@
+.login-container{
+
+display: flex;
+align-items: center;
+padding: 200px 1rem;
+justify-content: center;
+
+}
+.f-lable{
+    font-size: 25px;
+    font-weight:500;
+    color: #FEAE17;
+
+}
+
+.f-input{
+    padding: 10px;
+    border: 1px solid #FEAE17;
+    border-radius: 4px;
+    width: 300px;
+    margin: 20px 0 15px 0;
+    font-size: 15px;
+}
+.heading{
+    color: #FEAE17;
+}
+
+.L-button{
+    color: white;
+    padding: 25px;
+    margin-left: 30px;
+    border-radius: 5px;
+    font-size: 25px;
+    background-color:#FEAE17;
+    border: none;
+    cursor: pointer;
+
+  }
+  .L-button:hover{
+    font-weight: bold;
+  } 
